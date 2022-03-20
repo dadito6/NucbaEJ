@@ -13,7 +13,7 @@ body{
     height:100%;
     align-items:center;
     margin-top: 100px;
-    
+    margin-bottom: 100px;
     justify-content: center;
     
 }
@@ -130,7 +130,7 @@ body{
 
 
 .navegacion{
-    background-color:aqua ;
+    background-color:blue ;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -156,4 +156,59 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+
+
+
+.Slogan{
+    display: flex;
+    align-items: flex-start;
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.Slogann{
+    margin-left: 300px;
+}
+.titulo-slogan{
+    color:#390099;
+    margin-right: 60px;
+    font-size: 40px;
+}
+
+
+
+.botones{
+    width: 100%;
+    height: 100%;
+    font-family: 'Red Hat Mono', monospace;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.boton1{
+    border-radius: 50px;
+    margin-right: 10px;
+    background-color:#390099;
+    width: 130px;
+    height: 30px;
+    border: 2px solid #390099;;
+    color: white;
+}
+
+
+.boton2{
+    border-radius: 50px;
+    margin-right: 10px;
+    background-color:white;
+    width: 130px;
+    height: 30px;
+    border: 2px solid #390099; ;
+    color:#390099;;
 }
