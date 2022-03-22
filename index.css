@@ -3,8 +3,36 @@
     src: url(./fuentes/Lato-Bold.ttf);
 }
 
+
 body{
     background-color:#390099;
+}
+
+.change{
+    display: none;
+}
+
+.icon-close{
+    font-size: 16px;
+    color: white;
+
+}
+
+
+@media (max-width : 700px){
+    .JA{
+        display: none !important    ;
+    }
+    li{
+        width: 100%;
+    }
+    .icon-menu{
+        display: inline-block !important ;
+    }
+    .change:checked ~ ul{
+        display: inline-block !important;
+    }
+    
 }
 
 .container{
@@ -145,7 +173,12 @@ body{
     height:80px;
     
 }
-
+.menu{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
 .JA{
     list-style: none;
     display: flex;
@@ -157,6 +190,12 @@ body{
     color: white;
     margin-right: 10px;
     font-family: 'cesar';
+}
+.icon-menu{
+    font-size: 16px;
+    color: white;
+    
+
 }
 
 
