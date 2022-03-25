@@ -6,6 +6,11 @@
 
 body{
     background-color:#390099;
+
+}
+*{
+    margin:0 px;
+    padding: 0px;
 }
 
 .change{
@@ -19,7 +24,7 @@ body{
 }
 
 
-@media (max-width : 700px){
+@media (max-width : 1000px){
     .JA{
         display: none !important    ;
     }
@@ -27,23 +32,61 @@ body{
         width: 100%;
     }
     .icon-menu{
-        display: inline-block !important ;
+        display: inline-block!important;
     }
     .change:checked ~ ul{
         display: inline-block !important;
+    
+    }
+
+    .form ul label{
+        font-size: 0.6rem;
+
+        
+    }
+    .form ul input{
+        font-size: 0.6rem;
+        height: 60%;
+    }
+    .form button{
+        font-size: 0.6rem;
+        width: 125px;
+        height: 25px;
+    }
+    .titulo-slogan{
+        font-size: 1.8rem!important;
+    }
+    .parraf{
+        font-size: 12px;
+    }
+    .botones button{
+        width: 100px;
+        height: 25px;
+        font-size: 10px;
+    }
+
+    
+}
+
+@media( min-width: 1001px){
+    .icon-menu{
+        display: none !important;
+    }
+  
+    .JA{
+        display: flex;
     }
     
 }
 
 .container{
     display: flex;
-    width: 100%;
-    height:100%;
-    align-items:center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    width: 100vw;
+    align-items:center; 
     justify-content: center;
-    
+    margin-bottom: 100px;
+    margin-top: 100px;
+
 }
 .recuadroLogin{
     background-color: #FF0054;
@@ -61,10 +104,10 @@ body{
 
 .container-form{
     width: 50%;
-    height: 100%;
+    
     display: flex;
-    margin-top: 20px;
     align-items: center;
+    justify-content: center;
 
     
 }
@@ -77,8 +120,8 @@ body{
     margin: 0px;
     align-items: center;
     flex-wrap: wrap;
+    flex-direction: column;
 }
-
 .container-image{
     width: 50%;
     margin: 0px;
@@ -107,33 +150,37 @@ body{
     flex-direction: column;
 }
 .nombre input{
-    border-radius: 20px ;
-    width: 200px;
-    border: 1px solid violet;
+    border-radius: 15px ;
+    width: 100%;
+    border: 2px solid violet;
     font-family: 'cesar';
-    padding: 8px;
-    height: 25px;
+    padding: 6px;
+    height: 30px;
+    font-size:1rem;
 }
 .nombre label{
     font-family: 'cesar';
     color:white;
-    padding: 0px;
+    font-size: 1rem;
+    margin-left: 5px;
   
 }
 
 .contraseña input{
-    border-radius: 20px ;
-    width: 200px;
-    border: 1px solid violet;
+    border-radius: 15px ;
+    width: 100%;
+    font-size: 1rem;
+    border: 2px solid violet;
     font-family: 'cesar';
-    height: 25px;
-    padding: 8px;
+    padding: 6px;
+    height: 30px;   
 
 }
 .contraseña label{
     font-family: 'cesar';
     color:white;
-    padding: 0px;
+    font-size: 1rem;
+    margin-left: 5px;
 }
 
 
@@ -141,14 +188,15 @@ body{
 
 .boton{
     
-    border-radius: 20px ;
+    border-radius: 15px ;
     width: 200px;
-    border: 1px solid violet;
+    border: 2px solid violet;
     font-family: 'cesar';
     height: 40px;
+    
     background-color: blue;
     color: white;   
-    margin-left: 20px;
+
     
 }
 
@@ -173,6 +221,7 @@ body{
     height:80px;
     
 }
+
 .menu{
     display: flex;
     
@@ -195,28 +244,27 @@ body{
     font-size: 16px;
     color: white;
     
-
 }
 
 
 
 .Slogan{
-    display: flex;
-    align-items: flex-start;
-    font-family: 'Lato', sans-serif;
-    background-color: white;
     width: 100%;
     height: 100%;
-    justify-content: flex-end;
-    flex-direction: column;
+    background-color: white;
 }
 .Slogann{
-    margin-left: 300px;
+    display: flex;
+    align-items: center;
+    font-family: 'cesar';
+    justify-content: space-around;
+    flex-direction: column;
+    
 }
 .titulo-slogan{
     color:#390099;
     margin-right: 60px;
-    font-size: 40px;
+    font-size: 3rem;
 }
 
 
@@ -227,7 +275,9 @@ body{
     font-family: 'Red Hat Mono', monospace;
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-bottom: 20px;
+    margin-top: 20px;
     
 }
 
@@ -251,3 +301,4 @@ body{
     border: 2px solid #390099; ;
     color:#390099;;
 }
+
