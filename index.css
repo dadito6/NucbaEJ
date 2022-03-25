@@ -57,7 +57,8 @@ body{
         font-size: 1.8rem!important;
     }
     .parraf{
-        font-size: 12px;
+        font-size: 0.8rem;
+        width: 60%;
     }
     .botones button{
         width: 100px;
@@ -76,6 +77,7 @@ body{
     .JA{
         display: flex;
     }
+    
     
 }
 
@@ -264,7 +266,7 @@ body{
 .titulo-slogan{
     color:#390099;
     margin-right: 60px;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 
