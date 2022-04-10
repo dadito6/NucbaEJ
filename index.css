@@ -310,6 +310,8 @@ body{
     font-size: 3rem;
     animation-name: texto;
     animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
     line-height: 60px;
     letter-spacing: 10px;
 
@@ -390,7 +392,7 @@ body{
      width: 300%;
  }
  to{
-    margin-left: 0%;
+    margin-left: 100%;
     width: 100%;
  }
 }
@@ -486,4 +488,10 @@ body{
     height: 40%;
     color: white;
     
+}
+.fo-ig{
+    width:8%;
+}
+.fo-link{
+    width: 8%;
 }
