@@ -19,25 +19,11 @@
 
 }
 
-@media (max-width : 700px) {
+@media (max-width : 700px){
     .recuadroLogin{
         width: 100%;
     }
     
-    .form ul label{
-        font-size: 0.4rem;
-
-        
-    }
-    .form ul input{
-        font-size: 0.4rem;
-        height: 60%;
-    }
-    .form button{
-        font-size: 0.4rem;
-        width: 125px;
-        height: 25px;
-    }
     .recuadroLogin button{
         width: 70px;
         height: 20px;
@@ -49,7 +35,57 @@
     .JA{
         display: none!important;
     }
+    .change:checked ~ ul{
+        display: inline-block !important;
+    
+    }
+    .icon-menu{
+        display: inline-block!important;
+    }
 
+
+
+
+    
+    .form ul label{
+        font-size: 0.4rem;
+    }
+
+    .recuadroLogin button{
+        width: 60px;
+        font-size: 8px;
+        height: 26px;
+    }
+    .form ul input{
+        font-size: 0.4rem;
+        height: 30%;
+    }
+
+ 
+    .titulo-slogan{
+        font-size: 1.4rem !important;
+        width: 50%;
+        height: 20%;
+        
+    
+    }
+    .parraf{
+        font-size: 0.6rem!important;
+        width: 60%;
+    }
+    .container-list h3{
+        font-size: 2rem !important;
+
+    }
+    .container-list li{
+        font-size: 0.5rem !important;
+    }
+    .container-footer h3{
+        font-size: 1rem!important;
+    }
+    .container-footer p {
+        font-size: 0.5rem!important;
+    }
 
 }
 
@@ -71,8 +107,6 @@
 
     .form ul label{
         font-size: 0.6rem;
-
-        
     }
 
     .recuadroLogin button{
@@ -86,18 +120,33 @@
 
     .titulo-slogan{
         font-size: 1.8rem!important;
+        width: 60%;
+        height: 30%;
         
     }
     .parraf{
-        font-size: 0.8rem;
-        width: 60%;
+        font-size: 1rem!important;
+        width: 80%;
     }
     .botones button{
         width:100px ;
         height: 30px;
         font-size: 12px;
     }
+    .container-list h3{
+        font-size: 4rem !important;
 
+    }
+    .container-list li{
+        font-size: 0.8rem !important;
+
+    }
+    .container-footer h3{
+        font-size: 2.6rem!important;   
+    }
+    .container-footer p{
+        font-size: 0.8rem!important;
+    }
     
 }
 
@@ -161,16 +210,19 @@ body{
     flex-direction: column;
 }
 .container-image{
-    width: 50%;
+    width: 70%;
+    display: flex;
+    align-items: flex-end;
+    justify-content:flex-end;
     margin: 0px;
     
 }
 .container-image img{
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    height: auto;
     border-radius: 20px;
     margin: 0px;
-    object-fit: cover;
+    object-fit:cover;
 
     
 }
@@ -305,8 +357,8 @@ body{
 }
 .titulo-slogan{
     color:#390099;
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
     font-size: 3rem;
     animation-name: texto;
     animation-duration: 2s;
@@ -319,7 +371,12 @@ body{
     
 }
 
+.parraf{
+    font-size: 1.5rem;
+    font-weight: 500px;
+    font-family: 'cesar';
 
+}
 .botones{
     width: 100%;
     height: 100%;
