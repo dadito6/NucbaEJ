@@ -86,6 +86,15 @@
     .container-footer p {
         font-size: 0.5rem!important;
     }
+    .fo-ig{
+        width: 6%;
+    }
+    .fo-link{
+        width: 6%;
+    }
+    .fo-github{
+        width: 6%;
+    }
 
 }
 
@@ -147,6 +156,15 @@
     .container-footer p{
         font-size: 0.8rem!important;
     }
+    .fo-github{
+        width: 7%;
+    }
+    .fo-ig{
+        width: 7%;
+    }
+    .fo-link{
+        width: 7%;
+    }
     
 }
 
@@ -159,6 +177,7 @@
         display: flex;
     }
 }
+
 
 body{
     background-color:#390099;
